@@ -1,0 +1,112 @@
+@charset "utf-8";
+@import "base";
+
+/* ==================================
+5つの安心、運転代行サービスの流れ
+================================== */
+#reassurance,
+#flow {
+	.col-md-12 {
+		section {
+			.row {
+				margin-bottom: 20px;
+				.col-md-9 {
+					h3 {
+						border-bottom: 2px dotted #ccc;
+            @media (max-width: $screen-xs-max) {
+	          font-size: 95%;
+	          }
+						.point {
+							font-weight: 700;
+							font-size: 142%;
+							padding-right: 6px;
+							color: #dd5928;
+						}
+					}
+					p {
+            @media (max-width: $screen-xs-max) {
+	          font-size: 90%;
+	          }
+					}
+				}
+			}
+		}
+	}
+}
+
+/* ==================================
+運転代行の料金
+================================== */
+#fee {
+	.col-md-12 {
+		section {
+			h3 {
+				background-image: url(../img/icon-yen-bills.jpg);
+				background-repeat: no-repeat;
+				padding-left: 38px;
+        @media (max-width: $screen-xs-max) {
+        background-size: contain;
+				padding-left: 20px;
+        }
+			}
+		}
+	}
+}
+
+/* ==================================
+お知らせ
+================================== */
+#info {
+	.col-md-4 {
+		section {
+			h3 {
+				font-size: 110%;
+				margin-top: 8px;
+				padding-bottom: 5px;
+				span {
+					display: block;
+					font-style: italic;
+					margin-bottom: 3px;
+				}
+			}
+		}
+	}
+}
+
+/* ==================================
+営業エリア
+================================== */
+#area {
+	.col-md-12 {
+		section {
+			h3 {
+				background-image: url(../img/icon-map.jpg);
+				background-repeat: no-repeat;
+				padding-left: 34px;
+        @media (max-width: $screen-xs-max) {
+        background-size: contain;
+				padding-left: 20px;
+        }
+			}
+		}
+	}
+}
+
+/* ==================================
+ドライバースタッフ募集
+================================== */
+#recruit {
+	.col-md-4 {
+		section {
+			dl {
+				dd {
+					a {
+		        @media (max-width: $screen-xs-max) {
+						font-size: 198%;
+						}
+					}
+				}
+			}
+		}
+	}
+}
